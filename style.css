@@ -41,12 +41,32 @@ img {
     font-size: 70px;
     color: green;
   }
+  #sektion_1_forside {
+    width: auto;
+    height: 70vw;
+    background-color: #06090e;
+  }
 }
 
 /** desktop **/
 @media (min-width: 1200px) {
+  #sektion_1_forside {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
+  }
+
   #sektion_1_forside h1 {
     font-size: 70px;
     color: white;
+  }
+  #sektion_1_forside {
+    width: auto;
+    height: 50vw;
+    background-color: #06090e;
+  }
+  #sektion_1_forside h1 {
+    grid-column: 3/4;
+    grid-row: 2;
   }
 }
