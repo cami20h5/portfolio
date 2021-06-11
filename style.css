@@ -9,5 +9,12 @@ img {
 #sektion_1_forside {
   width: auto;
   height: 90vw;
-  background-color: black;
+  background-color: #06090e;
+}
+#sektion_1_forside p {
+  color: white;
+}
+
+#sektion_1_forside {
+  display: grid;
 }
