@@ -5,3 +5,9 @@ img {
   width: 100%;
   height: auto;
 }
+
+#sektion_1_forside {
+  width: auto;
+  height: 90vw;
+  background-color: black;
+}
