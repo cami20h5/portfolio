@@ -48,9 +48,21 @@ img {
   grid-template-rows: 1fr 2fr 1fr;
 }
 #sektion_2_forside p {
+  font-family: "Mukta", sans-serif;
+}
+
+#sektion_2_forside p {
   grid-column: 2;
   grid-row: 2;
   margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+/**Sektion 3 forside**/
+
+#sektion_3_forside {
+  width: auto;
+  height: 90vw;
 }
 
 /**Ipad**/
