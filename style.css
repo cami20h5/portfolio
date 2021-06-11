@@ -1,2 +1,7 @@
-/** mobile first /**
+/** mobile first **/
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
