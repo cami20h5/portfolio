@@ -34,6 +34,25 @@ img {
   grid-row: 2;
 }
 
+/** Sektion 2 - forside **/
+
+#sektion_2_forside {
+  color: black;
+  width: auto;
+  height: 40vw;
+}
+
+#sektion_2_forside {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+#sektion_2_forside p {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 70px;
+}
+
 /**Ipad**/
 
 @media (min-width: 768px) {
@@ -56,8 +75,14 @@ img {
     grid-template-rows: 2fr 1fr 2fr;
   }
 
+  #splashbilled {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    margin-top: 60px;
+  }
+
   #sektion_1_forside h1 {
-    font-size: 70px;
+    font-size: 90px;
     color: white;
   }
   #sektion_1_forside {
@@ -66,7 +91,14 @@ img {
     background-color: #06090e;
   }
   #sektion_1_forside h1 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 2;
+  }
+
+  /** Sektion 2 - forside - desktop **/
+  #sektion_2_forside p {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 50px;
   }
 }
