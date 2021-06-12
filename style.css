@@ -109,14 +109,14 @@ li:hover {
 
 /** Animations-siden**/
 
-#animation_splashbilled_txt {
+.splashbilled_txt {
   font-family: "Dancing Script", cursive;
   color: whitesmoke;
   margin-top: 10px;
   padding-right: 10px;
 }
 
-#animation_splashbilled_txt {
+.splashbilled_txt {
   display: grid;
   grid-column: 2;
 }
@@ -128,18 +128,17 @@ li:hover {
     padding: 10px;
   }
 
-  header .logo {
-    text-align: start;
-  }
-
   #sektion_1_forside h1 {
     font-size: 70px;
-    color: green;
+    color: goldenrod;
   }
   #sektion_1_forside {
     width: auto;
     height: 70vw;
     background-color: #06090e;
+  }
+  .splashbilled_txt {
+    /* padding: 50px; */
   }
 }
 
@@ -186,14 +185,14 @@ li:hover {
     margin-top: 50px;
   }
 
-  /** Animations siden, tekst på splashbille**/
-  #animation_splashbilled_txt {
-    font-family: "Dancing Script", cursive;
+  /** Tekst på splashbille**/
+  .splashbilled_txt {
+    font-family: "Mukta", sans-serif;
     color: goldenrod;
     margin-top: 10px;
     padding-right: 10px;
   }
-  #animation_splashbilled_txt {
+  .splashbilled_txt {
     grid-column: 3;
     grid-row: 2;
     margin-top: 150px;
