@@ -107,6 +107,20 @@ li:hover {
   height: 90vw;
 }
 
+/** Animations-siden**/
+
+#animation_splashbilled_txt {
+  font-family: "Dancing Script", cursive;
+  color: #e1b74c;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+#animation_splashbilled_txt {
+  display: grid;
+  grid-column: 2;
+}
+
 /**Ipad**/
 
 @media (min-width: 768px) {
