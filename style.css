@@ -6,6 +6,14 @@ img {
   height: auto;
 }
 
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
 /** Navigation Mobile**/
 
 header {
@@ -93,32 +101,45 @@ li:hover {
   font-family: "Mukta", sans-serif;
 }
 
-#sektion_2_forside p {
+#sektion_2_forside #brodtekst_forside {
   grid-column: 2;
   grid-row: 2;
-  margin-top: 70px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: auto;
+  height: 90vw;
 }
 
 /**Sektion 3 forside**/
 
 #sektion_3_forside {
-  width: auto;
-  height: 90vw;
+  overflow: hidden;
 }
 
-/** Animations-siden**/
+/** Splashbilled-tekst**/
 
 .splashbilled_txt {
   font-family: "Dancing Script", cursive;
   color: whitesmoke;
-  margin-top: 10px;
+  margin-top: 16px;
   padding-right: 10px;
 }
 
 .splashbilled_txt {
   display: grid;
   grid-column: 2;
+}
+
+/** web.html **/
+
+.underside_section_2 h2 {
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 20px;
+  padding: 10px;
+}
+.underside_section_2 p {
+  font-family: "Mukta", sans-serif;
+  padding: 10px;
 }
 
 /**Ipad**/
@@ -140,14 +161,21 @@ li:hover {
   .splashbilled_txt {
     /* padding: 50px; */
   }
+
+  #sektion_2_forside #brodtekst_forside {
+    margin-top: 100px;
+    overflow: visible;
+  }
 }
 
 /** desktop **/
 @media (min-width: 1200px) {
-  header .logo {
-    text-align: start;
+  p {
+    font-size: 18px;
   }
-
+  h2 {
+    font-size: 22px;
+  }
   a {
     padding: 10px;
   }
@@ -179,15 +207,15 @@ li:hover {
   }
 
   /** Sektion 2 - forside - desktop **/
-  #sektion_2_forside p {
+  #sektion_2_forside #brodtekst_forside {
     grid-column: 2;
     grid-row: 3;
-    margin-top: 50px;
+    margin-top: 300px;
   }
 
   /** Tekst på splashbille**/
   .splashbilled_txt {
-    font-family: "Mukta", sans-serif;
+    font-family: "Dancing Script", cursive;
     color: goldenrod;
     margin-top: 10px;
     padding-right: 10px;
@@ -197,5 +225,15 @@ li:hover {
     grid-row: 2;
     margin-top: 150px;
     padding-right: 60px;
+  }
+
+  #sektion_3_forside {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #sektion_4_forside {
+    display: flex;
+    justify-content: space-between;
   }
 }
