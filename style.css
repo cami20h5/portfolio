@@ -111,7 +111,7 @@ li:hover {
 
 #animation_splashbilled_txt {
   font-family: "Dancing Script", cursive;
-  color: #e1b74c;
+  color: whitesmoke;
   margin-top: 10px;
   padding-right: 10px;
 }
@@ -184,5 +184,19 @@ li:hover {
     grid-column: 2;
     grid-row: 3;
     margin-top: 50px;
+  }
+
+  /** Animations siden, tekst på splashbille**/
+  #animation_splashbilled_txt {
+    font-family: "Dancing Script", cursive;
+    color: goldenrod;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  #animation_splashbilled_txt {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 150px;
+    padding-right: 60px;
   }
 }
