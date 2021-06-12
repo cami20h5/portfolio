@@ -6,6 +6,52 @@ img {
   height: auto;
 }
 
+/** Navigation **/
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation a:hover,
+.navigation a:active {
+  background-color: darken(goldenrod, 3%);
+}
+
+/**********************/
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+  .navigation a:hover {
+    background-color: lighten(goldenrod, 10%);
+  }
+}
+@media all and (max-width: 500px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .navigation a {
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
 #sektion_1_forside {
   width: auto;
   height: 90vw;
