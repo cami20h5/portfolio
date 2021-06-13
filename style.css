@@ -110,7 +110,7 @@ li:hover {
 
 #sektion_2_forside #brodtekst_forside {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   margin-top: 20px;
   margin-bottom: 100px;
   width: auto;
@@ -118,10 +118,6 @@ li:hover {
 }
 
 /**Sektion 3 forside**/
-
-#sektion_3_forside {
-  overflow: hidden;
-}
 
 /** Splashbilled-tekst**/
 
