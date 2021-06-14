@@ -23,7 +23,7 @@ h3 {
 
 /** Navigation Mobile**/
 
-header {
+/* header {
   position: sticky;
   top: 0;
 }
@@ -58,11 +58,49 @@ header nav ul {
 li:hover {
   background-color: #e1b74c;
   border-bottom-color: white;
-}
-/**********************/
-/**** Navigation slut ******/
-/************************************************/
+} */
 
+/**** Gammel Navigation slut ******/
+
+/***** Burgermenu ******/
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+/** Hvis skærmen er større end 600px**/
+
+@media (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  #menu li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+  }
+}
+
+/************/
 #sektion_1_forside {
   width: auto;
   height: 90vw;
