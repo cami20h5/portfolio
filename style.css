@@ -100,7 +100,6 @@ li:hover {
   }
   #menu li {
     display: inline-block;
-    background-color: black;
   }
 
   a {
@@ -140,30 +139,6 @@ li:hover {
 }
 
 /** Sektion 2 - forside **/
-
-#sektion_2_forside {
-  color: black;
-  width: auto;
-  height: 40vw;
-}
-
-#sektion_2_forside {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
-}
-#sektion_2_forside p {
-  font-family: "Mukta", sans-serif;
-}
-
-#sektion_2_forside #brodtekst_forside {
-  grid-column: 2;
-  grid-row: 1;
-  /* margin-top: 20px; */
-  /* margin-bottom: 100px; */
-  width: auto;
-  height: 90vw;
-}
 
 /**Sektion 3 forside**/
 
@@ -355,6 +330,21 @@ li:hover {
     margin-top: 12vw;
     padding: 0%;
   }
+  li:hover {
+    background-color: #e1b74c;
+    border-bottom-color: white;
+    width: 5rem;
+  }
+  header nav {
+    left: 0;
+    top: 0;
+    right: 0;
+    /* padding: 0px 0px; */
+    height: 50px;
+    background-color: black;
+    /* z-index: 100; */
+    position: fixed;
+  }
 }
 
 /** desktop **/
@@ -544,6 +534,16 @@ li:hover {
   li:hover {
     background-color: #e1b74c;
     border-bottom-color: white;
-    width: 8rem;
+    width: 5rem;
+  }
+  header nav {
+    left: 0;
+    top: 0;
+    right: 0;
+    /* padding: 0px 0px; */
+    height: 50px;
+    background-color: black;
+    /* z-index: 100; */
+    position: fixed;
   }
 }
