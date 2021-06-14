@@ -25,6 +25,8 @@ h3 {
 header {
   position: sticky;
   top: 0;
+  margin-top: -3rem;
+  background-color: black;
 }
 
 ul,
@@ -51,14 +53,16 @@ a {
   background-color: black;
 } */
 
-.nav {
+/* .nav {
   background-color: black;
   display: flex;
   justify-content: flex-end;
-}
+} */
+
 li:hover {
   background-color: #e1b74c;
   border-bottom-color: white;
+  width: 4rem;
 }
 
 /**** Gammel Navigation slut ******/
@@ -68,6 +72,7 @@ li:hover {
 .hidden {
   opacity: 0;
   transform: translateX(-100%);
+  height: 2px;
 }
 
 #menuknap {
@@ -95,6 +100,7 @@ li:hover {
   }
   #menu li {
     display: inline-block;
+    background-color: black;
   }
 
   a {
@@ -362,6 +368,7 @@ li:hover {
   a {
     padding: 10px;
   }
+
   h3 {
     font-size: 20px;
     font-family: "Cormorant Garamond", serif;
@@ -533,5 +540,10 @@ li:hover {
   .underside_section_7 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+  }
+  li:hover {
+    background-color: #e1b74c;
+    border-bottom-color: white;
+    width: 8rem;
   }
 }
