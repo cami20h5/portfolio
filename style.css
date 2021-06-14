@@ -34,6 +34,19 @@ footer {
   padding-left: 6vw;
 }
 
+.se_link {
+  margin-bottom: 20vw;
+  padding: 15px;
+}
+
+.se_link a {
+  color: black;
+}
+
+.se_link a hover {
+  background-color: #e1b74c;
+}
+
 /** Navigation Mobile**/
 
 header {
