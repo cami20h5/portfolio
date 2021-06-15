@@ -8,6 +8,7 @@ img {
 
 p {
   font-size: 14px;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -41,9 +42,27 @@ footer {
 
 .se_link a {
   color: black;
+  padding: 12px;
 }
 
 .se_link hover {
+  background-color: #e1b74c;
+}
+
+.se_link_udenmargin a {
+  color: black;
+  padding-left: 12px;
+}
+
+.se_link_udenmargin a {
+  color: black;
+}
+
+.se_link_udenmargin a:hover {
+  background-color: #e1b74c;
+}
+
+.se_link a:hover {
   background-color: #e1b74c;
 }
 
@@ -504,6 +523,10 @@ li:hover {
     margin-top: 6vw;
     padding-left: 6vw;
   }
+
+  #div_billed2web {
+    margin-top: 3.5rem;
+  }
 }
 
 /** desktop **/
@@ -720,6 +743,7 @@ li:hover {
     gap: 10px;
     margin-bottom: 10px;
     padding: 12px;
+    line-height: 1.5em;
   }
 
   #sektion_4_forside {
