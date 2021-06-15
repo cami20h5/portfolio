@@ -374,6 +374,17 @@ li:hover {
 #sektion_4_forside h3 {
   padding-left: 12px;
 }
+#billed4_web {
+  padding: 12px;
+}
+
+#ommig_ny img {
+  padding-left: 50px;
+  margin-top: 20px;
+}
+#ommig_ny {
+  margin-bottom: 20px;
+}
 
 /**Ipad**/
 
@@ -485,6 +496,15 @@ li:hover {
     padding-left: 12rem;
     margin-bottom: 8rem;
   }
+
+  #sektion_4_forside {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+
   .underside_section_2 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -526,6 +546,20 @@ li:hover {
 
   #div_billed2web {
     margin-top: 3.5rem;
+  }
+  #billeder_indhold {
+    display: flex;
+    gap: 2rem;
+  }
+  #billed4_web {
+    padding: 8px;
+  }
+  #sektion_3_forside {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
   }
 }
 
@@ -743,7 +777,6 @@ li:hover {
     gap: 10px;
     margin-bottom: 10px;
     padding: 12px;
-    line-height: 1.5em;
   }
 
   #sektion_4_forside {
