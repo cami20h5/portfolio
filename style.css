@@ -103,6 +103,7 @@ li:hover {
 }
 
 #menuknap {
+  width: 20px;
   margin-top: 20px;
   padding-left: 16px;
   display: inline-block;
@@ -136,6 +137,54 @@ li:hover {
   }
 }
 
+/*** Meget små skærme ****/
+
+@media (max-width: 320px) {
+  header {
+    position: sticky;
+    top: 0;
+    margin-top: -3rem;
+    background-color: black;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "Mukta", sans-serif;
+    font-size: 12px;
+  }
+  li:hover {
+    background-color: #e1b74c;
+    border-bottom-color: white;
+    width: 4rem;
+  }
+
+  .hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    height: 2px;
+  }
+
+  #menuknap {
+    width: 20px;
+    margin-top: 20px;
+    padding-left: 16px;
+    display: inline-block;
+    color: #e1b74c;
+  }
+
+  #menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+  }
+}
+
 /*****Sektion 1 forside*******/
 #sektion_1_forside {
   width: auto;
@@ -144,7 +193,7 @@ li:hover {
   margin-top: -3rem;
 }
 #sektion_1_forside h1 {
-  color: white;
+  color: goldenrod;
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
   padding-left: 100px;
@@ -297,6 +346,14 @@ li:hover {
   margin-bottom: 20vw;
   padding: 10vw;
   line-height: 2em;
+}
+
+#sektion_3_forside h3 {
+  padding-left: 12px;
+}
+
+#sektion_4_forside h3 {
+  padding-left: 12px;
 }
 
 /**Ipad**/
@@ -695,8 +752,7 @@ li:hover {
     line-height: 1.5em;
   }
 
-  /* a img:hover {
-    color: gray;
-    border-bottom-color: white;
-  } */
+  #sektion_1_forside h1 {
+    color: whitesmoke;
+  }
 }
