@@ -103,7 +103,8 @@ li:hover {
 }
 
 #menuknap {
-  margin-top: 3px;
+  margin-top: 20px;
+  padding-left: 16px;
   display: inline-block;
   color: #e1b74c;
 }
@@ -693,4 +694,9 @@ li:hover {
 
     line-height: 1.5em;
   }
+
+  /* a img:hover {
+    color: gray;
+    border-bottom-color: white;
+  } */
 }
